@@ -1,4 +1,4 @@
-# Magepack 2.3 image
+# Magepack 2.7 image
 
 Helper tool for: https://www.npmjs.com/package/magepack
 
