@@ -12,7 +12,7 @@ RUN apt-get update \
 	&& rm -rf /var/lib/apt/lists/* /var/cache/apk/* /var/tmp/* /tmp/* \
 	&& mkdir -p /source \
 	&& npm install -g puppeteer --unsafe-perm=true --allow-root \
-	&& npm install -g magepack@2.7.2 --unsafe-perm=true --allow-root
+	&& npm install -g magepack@2.8.0 --unsafe-perm=true --allow-root
 
 WORKDIR /source
 CMD ["/usr/bin/magepack"]
