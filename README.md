@@ -1,4 +1,4 @@
-# Magepack 2.7 image
+# Magepack 2.8 image
 
 Helper tool for: https://www.npmjs.com/package/magepack
 
@@ -34,4 +34,14 @@ and clearing the cache:
 
 ```
 bin/magento cache:clean
+```
+
+## Building
+
+Clone the repo
+
+cd into the repo
+
+```
+make build
 ```
